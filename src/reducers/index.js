@@ -3,5 +3,5 @@ import phoneReducer from './phoneReducer';
 
 
 export default combineReducers({
-  phones: phoneReducer
+  phonesData: phoneReducer
 })

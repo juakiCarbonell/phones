@@ -27,9 +27,9 @@ export function PhoneList({phones, loading, error, fetchPhones}) {
 
 const mapStateToProps = (state) => {
   return {
-    phones: state.phones.phones,
-    loading: state.phones.loading,
-    error: state.phones.error
+    phones: state.phonesData.phones,
+    loading: state.phonesData.loading,
+    error: state.phonesData.error
   };
 }
 
