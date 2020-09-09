@@ -1,6 +1,6 @@
 # Phone app
 
-This is the phone app made by Joaquin Carbonell
+This is the phone app made by Joaquin Carbonell.
 
 ## Installation
 
@@ -24,6 +24,8 @@ npm start
 ```
 
 ## Tests
+
+To run simple tests
 
 ```pyhton
 npm test
