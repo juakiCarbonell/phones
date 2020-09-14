@@ -1,6 +1,6 @@
 # Phone app
 
-This is the phone app made by Joaquin Carbonell.
+This is the phone app made by Joaquin Carbonell. The structure of the app folder it is definetly overkilling for the exercise. I made it in this way to be an app that can be scaled easily and in a structured way. 
 
 ## Installation
 
