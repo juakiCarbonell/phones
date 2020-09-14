@@ -1,6 +1,3 @@
 export {
-  fetchPhones,
-  fetchPhonesRequest,
-  fetchPhonesSuccess,
-  fetchPhonesError
+  fetchPhones
 } from "./phonesActions";

@@ -28,9 +28,7 @@ export const fetchPhonesError = (error) => {
 export const fetchPhones = () => {
   return (dispatch) => {
     dispatch(fetchPhonesRequest());
-    phone
-      .get("/phones")
-      // phone.get("/posts")
+    phone.get("/phones")
       .then((response) => {
         dispatch(fetchPhonesSuccess(response.data));
       })
